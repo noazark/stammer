@@ -1,0 +1,23 @@
+{
+  "name": "stammer",
+  "version": "0.0.1",
+  "description": "Fififffiix The Data",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kpbet/stammer"
+  },
+  "author": "Noah H. Smith",
+  "license": "none",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "~1.8.2"
+  },
+  "dependencies": {
+    "node-html-encoder": "0.0.2"
+  }
+}
