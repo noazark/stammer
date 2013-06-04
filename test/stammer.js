@@ -3,6 +3,10 @@ var assert = require('assert')
 
 describe('stammer', function () {
   it('repeats until the result is the same', function () {
+    assert.equal(Stammer.decode('F&amp;amp;#252;rth'), 'Fürth');
+  });
+
+  it('repeats until the result is the same', function () {
     assert.equal(Stammer.decode('F&amp;#252;rth'), 'Fürth');
   });
 
